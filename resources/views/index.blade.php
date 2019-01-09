@@ -6,7 +6,7 @@
         <title>IMPex</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="favicon.ico">
+        <link rel="icon" type="image/png" href="images/icons/favicon.ico">
 
         <!--Google Font link-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -68,10 +68,10 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="#brand">
+                        <a class="navbar-brand" href="/">
 
-                            <img src="assets/images/logo.png " width="130px" height="55px" class="logo logo-display m-top-5" alt="">
-                            <img src="assets/images/logo.jpg" width="130px" height="55px" class="logo logo-scrolled" alt="">
+                            <img src="assets/images/logo.png " width="110px" height="40px" class="logo logo-display m-top-5" alt="">
+                            <img src="assets/images/logo.jpg" width="110px" height="40px" class="logo logo-scrolled" alt="">
 
                         </a>
                     </div>
@@ -81,10 +81,9 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                             <li><a href="#hello">Hello</a></li>                    
-                            <li><a href="#about">About</a></li>                    
-                            <li><a href="#service">Services</a></li>                    
+                            <li><a href="#about">About</a></li>                                        
                             <li><a href="#portfolio">Portfolio</a></li>                    
-                            <li><a href="#contact">Contact</a></li>  
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -102,7 +101,7 @@
                             </div>
 
                             <div class="home_btns m-top-40">
-                                <a href="" class="btn btn-primary m-top-20">GET STARTED</a>
+                                <a href="/home" class="btn btn-primary m-top-20">GET STARTED</a>
                             </div>
 
                         </div>

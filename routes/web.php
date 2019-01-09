@@ -10,7 +10,20 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::resource('kontak','Kontak');
+Route::resource('call','Call');
+
+Route::get('/home_pg', 'Call@index1');
+Route::get('/kontak_pg', 'Call@index2');
 
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/pilihan', function () {
+    return view('pilihan');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
